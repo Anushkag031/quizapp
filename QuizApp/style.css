@@ -1,0 +1,93 @@
+@import url('https://fonts.google.com/specimen/Katibeh#standard-styles');
+*{
+    margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: katibeh;
+     font-weight: 300;
+
+}
+
+html{
+    font-size: 50%;
+}
+.main-div{
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: seashell(206, 92%, 94%);
+}
+.inner-div{
+    width: 55vw;
+    background-color: rgb(237, 165, 171);
+    padding: 2rem 10rem;
+    border-radius: 2rem;
+    box-shadow: 4 4rem  rgba(8, 8, 8, 0.4);
+}
+.inner-div h2{
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 15%;
+    background-color: white;
+    border-color: black;
+
+}
+
+.inner-div li{
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+    list-style: none;
+
+}
+
+input{
+    cursor: pointer;
+}
+#SUBMIT, 
+.btn{
+    font-size: 2rem;
+    padding: 1rem 3rem;
+    outline: none;
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+    text-transform: uppercase;
+    background-color: white;
+
+}
+#SUBMIT:hover{
+    background-color: blue;
+}
+
+#showScore{
+    background-color: antiquewhite;
+    margin-top: 10%;
+    padding: 3rem 4rem;
+}
+
+#showScore h3{
+    font-size: 3rem;
+    text-align: center;
+    color: black;
+
+}
+#showScore .btn{
+    margin-top: 2rem;
+    background-color: azure;
+
+}
+.scoreArea{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
